@@ -1,0 +1,59 @@
+---
+output: html_document
+---
+###DATA DICTIONARY - HUMAN ACTIVITY RECOGNITION USING SMARTPHONES
+
+ACTIVITIES      1
+                Activity Type
+                1. Walking
+                2. Walking Upstairs
+                3. Walking Downstairs
+                4. Sitting
+                5. Standing
+                6. Laying
+                
+SUBJECT         2
+                Identifier of the Subject who carried out the experiment
+                01..30 . 1 to 30 persons who perform the activities
+
+TIMEBODYACCELERATION-MEAN()-XYZ  13
+                                 Average Time Body Acceleration Signal of 3 axial signals in X, Y, Z direction
+                                 -1 .. 1 . Average Value of Time
+                                 
+TIMEGRAVITYACCELERATION-MEAN()-XYZ 13
+                                 Average Time Gravity Acceleration Signal of 3 axial signals in X, Y, Z direction
+                                 -1 .. 1 . Average Value of Time
+                                 
+TIMEGRAVITYACCELERATION-STD()-XYZ 13
+                                 Standard deviation of Time Gravity Acceleration Signal of 3 axial signals in X, Y, Z direction
+                                 -1 .. 1 . Std Value of Time
+                                 
+TIMEBODYACCELERATIONJERK-MEAN()-XYZ 13
+                                 Average Time Body Acceleration using Jerk Signal of 3 axial signals in X, Y, Z direction
+                                 -1 .. 1 . Average Value of Time
+                                 
+TIMEBODYACCELERATIONJERK-STD()-XYZ 13
+                                 Standard deviation of Time Body Acceleration based on Jerk signal of 3 axial signals in X, Y, Z direction
+                                 -1 .. 1 . Std Value of Time
+
+TIMEBODYGYROSCOPE-MEAN()-XYZ    13
+                                Average Time Body using 3 axial gyroscope signals in X, Y, Z direction
+                                -1 .. 1 . Average Value of Time
+
+TIMEBODYGYROSCOPE-STD()-XYZ     13
+                                Standard Deviation of Time Body using 3 axial gyroscope signals in X, Y, Z direction
+                                -1 .. 1 . Std Value Of Time
+                                
+TIMEBODYGYROSCOPEJERK-MEAN()-XYZ        13
+                                        Average Time Body based on Gyroscope signal and Jerk signal in X, Y, Z direction.
+                                -1 .. 1 . Average value of Time
+
+TIMEBODYGYROSCOPEJERK-STD()-XYZ 13
+                                Standard Time Body based on Gyroscope signal and Jerk signal in X, Y, Z direction.
+                                -1 .. 1 . Std value of Time
+                                
+......
+
+FREQUENCYBODYACCELERATION-MEAN()-XYZ    13
+                                        Average frequency of Body Acceleration based on 3 axial signals in X, Y, Z direction
+......
