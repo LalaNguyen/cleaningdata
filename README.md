@@ -13,6 +13,7 @@ The file is broken down into pieces where:
 
 # R Scripts
 run_analysis.R does the following:
+
 1. It first downloads the file from given url and extract it
 2. Secondly, it merges correspondingly Features-train/test, Activity-train/test, Subject-train/test and produce large datasets
 3. Thirdly, it looks for features name inside features.txt and grep the mean & std features. Using the selected features, it creates another small subset including on mean & std value.
